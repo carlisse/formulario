@@ -72,3 +72,38 @@ body{
     text-decoration: none;
     transition: background-color .3s ease-in-out;
 }
+
+.navegacion a:hover{
+    background-color: blue;
+    color: white;
+}
+
+@media(min-width: 768px){
+    .navegacion a{
+        display:inline;
+    }
+}
+
+@media(min-width: 768px){
+    .navegacion {
+        position: relative;
+        top:unset;
+        width: auto;
+        background-color: unset;
+        animation: unset;
+    }
+}
+
+.hamburguesa span{
+    width: 5rem;
+    height: 1rem;
+    border: 3px solid white;
+    background-color: #0a1128;
+    display: block;
+}
+
+@media(min-width: 768px){
+    .hamburguesa{
+        display: none;
+    }
+}
