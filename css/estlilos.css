@@ -7,6 +7,9 @@ body{
     font-size: 16px;
 }
 
+.ocultar{
+    display: none;
+}
 .contenedor{
     margin: 0 auto;
     max-width: 120rem;
@@ -37,6 +40,7 @@ body{
 
 .logo h2{
     font-size: 3rem;
+    font-family: 'roboto', sans-serif;
 }
 
 .logo h2 span{
@@ -49,4 +53,22 @@ body{
     justify-content: space-around;
     background-color: white;
     box-shadow: 10px 10px 16px -6px rgba(0, 0, 0, 0.45);
+}
+
+.navegacion{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100px;
+    animation: desplazamiento .5s ease-in-out;
+}
+
+.navegacion a{
+    display: block;
+    font-size: 2rem;
+    padding: 1.1rem;
+    color: #0a1128;
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
 }
