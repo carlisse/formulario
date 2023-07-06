@@ -20,7 +20,7 @@ body{
 
 /*encabezado*/
 
-.encabezado{
+/*.encabezado{
     background-color: antiquewhite;
     height: 100vh;
     min-height: 70rem;
@@ -120,7 +120,7 @@ body{
     .hamburguesa{
         display: none;
     }
-}
+}*/
 
 /*formulario*/
 
@@ -194,16 +194,24 @@ body{
     outline: none;
 }
 
-.input input[type="submit"]{
+.input :focus{
+    color: #5d5e5d;
+}
+
+.input button[type="submit"]{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
     background-color: rgb(53, 53, 249);
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     border: none;
     margin-top: 20px;
     transition: background-color .3s ease-in-out;
 }
 
-.input input[type="submit"]:hover{
+.input button[type="submit"]:hover{
     cursor: pointer;
     background-color: darkblue;
 }
